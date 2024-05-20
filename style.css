@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+.rosa{
+    height: 400px;
+    width: 400px;
+    border-width: 20px;
+    display: block;
+    border-style: dotted;
+    border-color: green;
+    background-image: url(rosa_dalia.jpg);
+    text-align: center;
+    box-shadow: inset 10px 20px 20px 20px #8912b8;
+    background-size: cover;
+    margin: auto;
+    margin-top: 120px;
+    outline-width: 40px;
+    outline-style: dashed;
+    outline-color: red;
+}
+
+p{
+    margin: 0px;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+p:hover{
+    color: #8912b8;
+    background-color: black;
+    border-radius: 40px;
+}
